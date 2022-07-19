@@ -7,7 +7,7 @@ const app = express();
 
 // Create Route Handler
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ bye: 'buddy' });
 });
 
 // Constant port (as an environment variable) given by heroku or ny other server
